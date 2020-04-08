@@ -1,0 +1,15 @@
+{
+    "name": "calculator/test",
+    "description": "An exemple of phpunits test with a calculator",
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "phpunit/phpunit": "^9"
+    },
+    "require-dev": {
+    }
+}
