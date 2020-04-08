@@ -20,7 +20,7 @@ final class CalculTest extends TestCase
         $result = $calculator->sub(100, 2);
         $this->assertEquals(98, $result);
     }
-    
+
     public function testMul($a, $b)
     {
         $calculator = new Calcul();
