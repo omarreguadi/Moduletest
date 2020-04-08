@@ -7,31 +7,31 @@ use PHPUnit\Framework\TestCase;
 
 final class CalculTest extends TestCase
 {
-    public function testAdd($a, $b)
+    public function testAdd()
     {
-        $calculator = new Calcul();
-        $result = $calculator->add(20, 20);
+        $calcul = new Calcul();
+        $result = $calcul->add(20, 20);
         $this->assertEquals(40, $result);
     }
 
-    public function testSub($a, $b)
+    public function testSub()
     {
-        $calculator = new Calcul();
-        $result = $calculator->sub(100, 2);
+        $calcul = new Calcul();
+        $result = $calcul->sub(100, 2);
         $this->assertEquals(98, $result);
     }
 
-    public function testMul($a, $b)
+    public function testMul()
     {
-        $calculator = new Calcul();
-        $result = $calculator->mul(50, 2);
+        $calcul = new Calcul();
+        $result = $calcul->mul(50, 2);
         $this->assertEquals(100, $result);
     }
 
-    public function testDiv($a, $b)
+    public function testDiv()
     {
-        $calculator = new Calcul();
-        $result = $calculator->div(40, 4);
+        $calcul = new Calcul();
+        $result = $calcul->div(40, 4);
         $this->assertEquals(10, $result);
     }
 
