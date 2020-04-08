@@ -14,13 +14,13 @@ final class CalculTest extends TestCase
         $this->assertEquals(40, $result);
     }
 
-    public function testDiv($a, $b)
+    public function testSub($a, $b)
     {
         $calculator = new Calcul();
-        $result = $calculator->div(40, 4);
-        $this->assertEquals(10, $result);
+        $result = $calculator->sub(100, 2);
+        $this->assertEquals(98, $result);
     }
-
+    
     public function testMul($a, $b)
     {
         $calculator = new Calcul();
@@ -28,10 +28,12 @@ final class CalculTest extends TestCase
         $this->assertEquals(100, $result);
     }
 
-    public function testSub($a, $b)
+    public function testDiv($a, $b)
     {
         $calculator = new Calcul();
-        $result = $calculator->sub(100, 2);
-        $this->assertEquals(98, $result);
+        $result = $calculator->div(40, 4);
+        $this->assertEquals(10, $result);
     }
+
+
 }
