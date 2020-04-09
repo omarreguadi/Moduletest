@@ -1,6 +1,6 @@
 {
-    "name": "calculator/test",
-    "description": "An exemple of phpunits test with a calculator",
+    "name": "calcul/test",
+    "description": "phpunits test with a calculator",
     "license": "MIT",
     "autoload": {
         "classmap": [
